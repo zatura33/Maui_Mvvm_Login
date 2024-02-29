@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:uiExtensions="clr-namespace:MvvmDiMauiLogin.UIExtensions"
+             xmlns:vm="clr-namespace:MvvmDiMauiLogin.ViewModels"
+             x:Class="MvvmDiMauiLogin.Views.LoginPage"
+             Title="LoginPage">
+    <ContentPage.BindingContext>
+        <uiExtensions:ViewModelContextBinding x:TypeArguments="vm:LoginPageViewModel"/>
+    </ContentPage.BindingContext>
+    <VerticalStackLayout Margin="30">
+
+        <!-- Disconnected Layout -->
+    <VerticalStackLayout IsVisible="{Binding NotConnected}">
+        <Entry Placeholder="Username"
+               Text="{Binding Username}"/>
+        <Entry Placeholder="Password" IsPassword="True"
+               Text="{Binding Password}"/>
+        <Button Command="{Binding LoginCommand}"
+                Text="Connect"
+                Margin="30,10,30,5"/>
+
+    </VerticalStackLayout>
+
+        <!-- Connected Layout -->
+        <VerticalStackLayout IsVisible="{Binding Connected}">
+            <Label HorizontalTextAlignment="Center" 
+                   FontSize="30" 
+                   Margin="10"
+                   FontAttributes="Bold"
+                   Text="{Binding WelcomeMessage}"/>
+            <Button Command="{Binding LogoutCommand}"
+                    Text="Disconnect"
+                    Margin="30,5"/>
+        </VerticalStackLayout>
+
+    </VerticalStackLayout>
+
+</ContentPage>

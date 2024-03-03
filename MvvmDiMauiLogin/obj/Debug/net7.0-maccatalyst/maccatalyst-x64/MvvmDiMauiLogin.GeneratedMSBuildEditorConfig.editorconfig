@@ -1,8 +1,4 @@
 is_global = true
-build_property.EnableAotAnalyzer = 
-build_property.EnableSingleFileAnalyzer = 
-build_property.EnableTrimAnalyzer = false
-build_property.IncludeAllContentForSelfExtract = 
 build_property.TargetFramework = net7.0-maccatalyst
 build_property.TargetPlatformMinVersion = 
 build_property.UsingMicrosoftNETSdkWeb = 
@@ -12,53 +8,51 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = MvvmDiMauiLogin
-build_property.ProjectDir = C:\Users\vroy\source\repos\MvvmDiMauiLogin\MvvmDiMauiLogin\
-build_property.EnableComHosting = 
-build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.ProjectDir = C:\Users\Vincent\source\repos\Maui_Mvvm_Login\MvvmDiMauiLogin\
 
-[C:/Users/vroy/source/repos/MvvmDiMauiLogin/MvvmDiMauiLogin/App.xaml]
+[C:/Users/Vincent/source/repos/Maui_Mvvm_Login/MvvmDiMauiLogin/App.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = MvvmDiMauiLogin.App.xaml
 build_metadata.AdditionalFiles.TargetPath = App.xaml
 build_metadata.AdditionalFiles.RelativePath = App.xaml
 
-[C:/Users/vroy/source/repos/MvvmDiMauiLogin/MvvmDiMauiLogin/AppShell.xaml]
+[C:/Users/Vincent/source/repos/Maui_Mvvm_Login/MvvmDiMauiLogin/AppShell.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = MvvmDiMauiLogin.AppShell.xaml
 build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
 build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
 
-[C:/Users/vroy/source/repos/MvvmDiMauiLogin/MvvmDiMauiLogin/Resources/Styles/Colors.xaml]
+[C:/Users/Vincent/source/repos/Maui_Mvvm_Login/MvvmDiMauiLogin/Resources/Styles/Colors.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = MvvmDiMauiLogin.Resources.Styles.Colors.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Colors.xaml
 build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Colors.xaml
 
-[C:/Users/vroy/source/repos/MvvmDiMauiLogin/MvvmDiMauiLogin/Resources/Styles/Styles.xaml]
+[C:/Users/Vincent/source/repos/Maui_Mvvm_Login/MvvmDiMauiLogin/Resources/Styles/Styles.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = MvvmDiMauiLogin.Resources.Styles.Styles.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
 build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml
 
-[C:/Users/vroy/source/repos/MvvmDiMauiLogin/MvvmDiMauiLogin/Views/ClientPage.xaml]
+[C:/Users/Vincent/source/repos/Maui_Mvvm_Login/MvvmDiMauiLogin/Views/ClientPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = MvvmDiMauiLogin.Views.ClientPage.xaml
 build_metadata.AdditionalFiles.TargetPath = Views\ClientPage.xaml
 build_metadata.AdditionalFiles.RelativePath = Views\ClientPage.xaml
 
-[C:/Users/vroy/source/repos/MvvmDiMauiLogin/MvvmDiMauiLogin/Views/EmployePage.xaml]
+[C:/Users/Vincent/source/repos/Maui_Mvvm_Login/MvvmDiMauiLogin/Views/EmployePage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = MvvmDiMauiLogin.Views.EmployePage.xaml
 build_metadata.AdditionalFiles.TargetPath = Views\EmployePage.xaml
 build_metadata.AdditionalFiles.RelativePath = Views\EmployePage.xaml
 
-[C:/Users/vroy/source/repos/MvvmDiMauiLogin/MvvmDiMauiLogin/Views/HomePage.xaml]
+[C:/Users/Vincent/source/repos/Maui_Mvvm_Login/MvvmDiMauiLogin/Views/HomePage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = MvvmDiMauiLogin.Views.HomePage.xaml
 build_metadata.AdditionalFiles.TargetPath = Views\HomePage.xaml
 build_metadata.AdditionalFiles.RelativePath = Views\HomePage.xaml
 
-[C:/Users/vroy/source/repos/MvvmDiMauiLogin/MvvmDiMauiLogin/Views/LoginPage.xaml]
+[C:/Users/Vincent/source/repos/Maui_Mvvm_Login/MvvmDiMauiLogin/Views/LoginPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = MvvmDiMauiLogin.Views.LoginPage.xaml
 build_metadata.AdditionalFiles.TargetPath = Views\LoginPage.xaml

@@ -1,1 +1,1 @@
-C:\Users\vroy\source\repos\MvvmDiMauiLogin\MvvmDiMauiLogin\MvvmDiMauiLogin.csproj;x64
+C:\Users\Vincent\source\repos\Maui_Mvvm_Login\MvvmDiMauiLogin\MvvmDiMauiLogin.csproj;x64

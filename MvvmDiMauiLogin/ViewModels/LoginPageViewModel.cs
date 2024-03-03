@@ -1,18 +1,14 @@
-﻿using System.ComponentModel;
-using System.Runtime.CompilerServices;
-using System.Windows.Input;
+﻿using System.Windows.Input;
 using Microsoft.Toolkit.Mvvm.Input;
 using MvvmDiMauiLogin.Models;
 using MvvmDiMauiLogin.Service;
 using MvvmDiMauiLogin.Services;
 
-
 namespace MvvmDiMauiLogin.ViewModels
 {
-  public class LoginPageViewModel : INotifyPropertyChanged
-  {
+  public class LoginPageViewModel : BaseViewModel
+    {
     private const string                     Welcome = "Welcome";
-    public event PropertyChangedEventHandler PropertyChanged;
     private ILoginService                    loginService;
     private IPopupService                    popupService;
     private string                           _userName;
@@ -106,17 +102,5 @@ namespace MvvmDiMauiLogin.ViewModels
       Password = string.Empty;
     }
 
-    protected virtual void RaisePropertyChanged([CallerMemberName] string propertyName = null)
-    {
-      PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propertyName));
-    }
-
-    protected bool SetField<T>(ref T field, T value, [CallerMemberName] string propertyName = null)
-    {
-      if (EqualityComparer<T>.Default.Equals(field, value)) return false;
-      field = value;
-      RaisePropertyChanged(propertyName);
-      return true;
-    }
   }
 }
